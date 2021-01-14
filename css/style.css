@@ -1,3 +1,69 @@
+/* common css starts */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #3B3B3B;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #363958;
+    font-weight: 700;
+}
+img {
+    width: 100%;
+}
+/* common css ends */
+
+/* nav css starts */
+nav {
+    background: #FFFBF0;
+}
 .navbar-nav {
     margin-left: auto;
 }
+.navbar-nav li a {
+    color: #3B3B3B;
+    font-weight: 700;
+    transition: all linear .3s;
+}
+.navbar-nav li a:hover {
+    color: #A4BC46;
+    font-weight: 700;
+}
+.navbar-nav li {
+    padding-left: 50px;
+}
+.btn_1 {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(180deg, #A4BC46, #86A11B);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+}
+/* nav css ends */
+
+/* banner css starts */
+#banner {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background: #FFFBF0;
+}
+#banner .banner_left {
+    padding-top: 130px;
+}
+#banner .banner_left h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+}
+#banner .banner_left h1 span {
+    color: #FABE4C;
+}
+#banner .banner_left button span {
+    padding-right: 5px;
+}
+#banner .banner_right img {
+width: 500px;
+}
+/* banner css ends */
