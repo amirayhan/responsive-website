@@ -12,11 +12,35 @@ h1, h2, h3, h4, h5, h6 {
 img {
     width: 100%;
 }
+.btn_1 {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(180deg, #A4BC46, #86A11B);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.btn_1:hover {
+    background-image: linear-gradient(180deg, #86A11B, #A4BC46);
+}
+.btn_1 span {
+    padding-right: 5px;
+}
+.section_heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
 /* common css ends */
 
 /* nav css starts */
 nav {
     background: #FFFBF0;
+}
+.navbar-brand {
+    width: 250px;
 }
 .navbar-nav {
     margin-left: auto;
@@ -33,15 +57,7 @@ nav {
 .navbar-nav li {
     padding-left: 50px;
 }
-.btn_1 {
-    text-decoration: none;
-    padding: 10px 20px;
-    background-image: linear-gradient(180deg, #A4BC46, #86A11B);
-    color: white;
-    border-radius: 5px;
-    border: 0;
-    text-transform: uppercase;
-}
+
 /* nav css ends */
 
 /* banner css starts */
@@ -64,6 +80,169 @@ nav {
     padding-right: 5px;
 }
 #banner .banner_right img {
-width: 500px;
+    width: 500px;
 }
 /* banner css ends */
+
+/* woman_jacket css starts */
+#woman_jacket {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#woman_jacket .card {
+    border: 0;
+box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.1);
+    border-radius: 35px;
+    padding: 20px;
+}
+#woman_jacket .card h5 {
+    font-size: 25px;
+}
+#woman_jacket .card h3 {
+    color: #FABE4C;
+    font-size: 40px;
+}
+#woman_jacket .card .btn_1 {
+    float: right;
+}
+/* woman_jacket css ends */
+
+/* man_jacket css starts */
+#man_jacket {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#man_jacket .card {
+    border: 0;
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.1);
+    border-radius: 35px;
+    padding: 20px;
+}
+#man_jacket .card h5 {
+    font-size: 25px;
+}
+#man_jacket .card h3 {
+    color: #FABE4C;
+    font-size: 40px;
+}
+#man_jacket .card .btn_1 {
+    float: right;
+}
+/* man_jacket css ends */
+
+/* why_chose_us css starts */
+#why_chose_us {
+    padding: 90px 0;
+}
+#why_chose_us .us_item {
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.1);
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#why_chose_us .us_item h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#why_chose_us .us_item img{
+    width: 100px;
+}
+#why_chose_us .us_item .content {
+    padding-left: 15px;
+    padding-top: 7px;
+}
+#why_chose_us .us_images {
+    padding: 30px 20px;
+}
+/* why_chose_us css ends */
+
+/* contact css starts */
+#contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  #contact .contact_left h3 {
+    padding-bottom: 15px;
+  }
+  #contact .contact_left .contact_items {
+    display: flex;
+    margin-top: 25px;
+  }
+  #contact .contact_left .contact_items span.icon {
+    width: 45px;
+    height: 45px;
+    background: #86A11B;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    color: #fff;
+  }
+  #contact .contact_left .contact_items .content {
+    padding-left: 0px;
+  }
+  #contact .contact_left .contact_items .content ul li {
+    color: #6c757d;
+    list-style: none;
+  }
+  #contact .contact_left .contact_items .content ul li span {
+    color: #86A11B;
+    font-weight: 700;
+  }
+  #contact .contact_right {
+    background: #fff;
+    padding: 40px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+  }
+  #contact .contact_right .input-control {
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    margin-bottom: 25px;
+    background: rgba(243, 243, 243, 0.7);
+    color: #626262;
+  }
+  #contact .contact_right .input-control:focus {
+    color: #86A11B;
+  }
+  #contact .contact_right .text-area {
+    width: 100%;
+    height: 150px;
+    padding: 10px 15px;
+    border: 0;
+    margin-bottom: 25px;
+    background: rgba(243, 243, 243, 0.7);
+    color: #626262;
+  }
+  #contact .contact_right .text-area:focus {
+    color: #86A11B;
+  }
+  #contact .contact_right button {
+    border: none;
+  }
+/* contact css ends */
+
+/* footer css starts */
+footer {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 0;
+    height: 300px;
+    background: #363958;
+}
+footer h3 {
+    color: #fff;
+}
+footer h2{
+    font-size: 20px;
+    color: #A4BC46;
+}
+footer .icon {
+    text-align: center;
+}
+footer .icon img {
+    width: 50px;
+    margin: 10px;
+}
+/* footer css ends */
